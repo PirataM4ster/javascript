@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../.."
+		},
+		{
+			"path": "../../../Códigos do VS"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Códigos do VS"
+	}
+}

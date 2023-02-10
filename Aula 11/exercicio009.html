@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xenofóbia</title>
+</head>
+<body>
+    <h1>Você é argentino ou ser-humano?</h1>
+    Eu sou <input type="text" name="txt1" id="txt1">
+    <input type="button" value="Resposta" onclick="clicar()">
+<div id="res">
+
+</div>
+<script>
+    
+
+    function clicar() {
+        var txtn1 = window.document.querySelector('input#txt1')
+        var res = window.document.querySelector('div#res')
+        var nacio = String(txtn1.value)
+
+        if (nacio == 'argentino') {
+            res.innerHTML = `<p>Vai se foder seu <strong>${nacio}</strong> imundo!!!</p>`
+        } else {
+            res.innerHTML = `<p>Parabens. Ser ${nacio} é melhor que ser argentino</p>`
+        }
+    }
+</script>
+</body>
+</html>
